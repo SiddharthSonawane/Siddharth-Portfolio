@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* box-sizing: unset; */
+}
+
+button {
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 0.8rem;
+
+}
+
+button:hover {
+    border: 1px #fff solid;
+}
+
+/* Nav Section */
+.navbar {
+    padding: 0;
+    background-color: rgb(163, 106, 216);
+    text-align: center;
+    width: 100%;
+    height: auto; 
+    border-bottom: 1px black solid;   
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(61, 57, 50);
+}
+
+
+/* Welcome section */
+
+.welcome-section {
+    background-color: rgb(163, 106, 216);
+    color: thistle;
+    text-align: center;
+    height: auto;
+    padding: 5%;    
+}
+
+.welcome-section h1 {
+    
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Projects Section */
+
+.projects-section {
+    background-color: rgb(245, 228, 245);
+    padding: 5%;
+    
+}
+
+#project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#project-container > div {
+    margin: 3% 0;
+    padding: 2%;
+    border: 2px rgb(163, 106, 216) solid;
+}
+
+#project-container  p {
+    margin: 3% 0;
+    font-size: 1rem;
+}
+.projects-section h2 {
+    padding-bottom: 5%;
+}
+
+.projects-section > div {
+    /* display: inline-block; */
+
+    
+    padding: 1%;
+}
+
+.projects-section button {
+    background-color: rgb(85, 96, 248);
+    color: #fff;
+    margin-top: 1%;
+    padding: 1% 5%;
+    
+}
+
+.projects-section button:hover {
+    background-color: rgb(3, 12, 131);
+    border: 1px black solid;
+}
+
+
+/* Contact Section */
+
+.contact-section {
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    display: flexbox; 
+    /* justify-content: center;
+    justify-items: center; */
+    padding: 15% 10%;
+}
+
+/* .contact-section > div {
+    display: inline;  
+    
+} */
+
+.contact-section a > button {
+    background-color: rgb(247, 84, 84);
+    color: #fff;
+    margin: 3%;
+    padding: 2% 3%;
+    font-size: 1rem;
+    /* border: 1px black solid;
+    border-radius: 5px; */
+}
+
+.contact-section a > button:hover {
+    background-color: rgb(124, 22, 22);
+    /* border: 1px #fff solid; */
+}
+
+
+/* Media Quries */
+
+@media screen and (min-width: 768px) {
+
+    /* Navbar section */
+    nav {
+        margin-right: 5%;
+    }
+    nav > ul {
+        text-align: right;
+    }
+
+    ul > li {
+        padding: 1% 0 3% 5%;
+    }
+
+    /* Welcome Section */
+
+    .welcome-section {
+        text-align: center;
+        padding: 5% 10%;
+        height: auto;
+    }
+
+    #welcome-subheading {       
+        margin: auto;
+        width: 50%;
+    }
+
+    .welcome-section p {
+        font-size: 1.5rem;
+    }
+
+    /* Project Section */
+    .projects-section {
+        text-align: center;
+        
+    }
+
+    #project-container {
+        flex-direction: row;
+    }
+
+    .projects-section p {        
+        text-align: left;
+    }
+
+    .projects-section > div {
+        width: 70%;
+        
+        /* display: flex; */
+        
+                   
+    }
+
+    .projects-section button {
+        font-size: 1rem;
+        padding: 1% 5%;
+        margin-top: 3%;
+    }
+
+    /* Contact */
+
+    .contact-section {
+        padding: 5%;
+    }
+
+    .contact-section button {
+        padding: 1%;
+    }
+}
