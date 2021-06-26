@@ -137,24 +137,26 @@ button:hover {
     padding: 15% 10%;
 }
 
-.contact-section .btn {
-    background-color: #23d5ab;
+.contact-div .btn {    
     margin: 3%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     border-radius: 100%;
 }
 
-.contact-section .btn:hover {
-    background-color: #17705b;
-}
-
-.contact-section .fa-envelope-square, .fa-phone-square-alt {
-    background-color: #23d5ab;
+.contact-icon {
     margin: 2%;
     padding: 2%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #fff;
     border-radius: 50%;
+}
+
+.contact-info-div {
+    margin-top: 3%;
+}
+
+.contact-info-div .contact-icon {
+    font-size: 1.5rem;
 }
 
 .contact-info {
@@ -227,13 +229,43 @@ button:hover {
         margin-top: 3%;
     }
 
-    /* Contact */
+    /* ************************************Contact Section******************************** */
 
     .contact-section {
+        padding: 3% 10%;
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr;
+        align-items: center;
+    }
+
+    .contact-section > div {
+        width: 60%;
+        height: auto;
         padding: 5%;
     }
 
-    .contact-section button {
-        padding: 1%;
+    .contact-info-div {
+        text-align: left;
+    }
+
+    .contact-div a > .btn:hover {
+        background-color: rgb(75, 75, 75);
+        border: 1px white solid;    
+    }
+
+    .contact-icon {
+        margin: 10px;
+        padding: 10px;        
+        border-radius: 100%;
+        font-size: 3rem;
+    }
+
+    .contact-info-div .contact-icon {
+        font-size: 1.5rem;
+    }
+
+    .contact-section .btn {        
+        margin: 0;        
+        color: #fff;        
     }
 }
