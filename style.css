@@ -195,14 +195,14 @@ button:hover {
     /* Navbar section */  
     
     .nav {        
-        width: 30%;
+        width: 40%;
         display: flexbox;
         flex-direction: row;
     }
 
     .nav-item {
         font-size: 0.5rem;        
-        padding: 1% 0 3% 5%;
+        padding: 1% 0 1% 5%;
     }
 
     .nav-link:hover {
@@ -256,9 +256,7 @@ button:hover {
 
     /* Tech skills */
 
-    .technical-skills {
-        /* padding-top: 1%; */
-    }
+
 
     .technical-skills h2 {
         text-align: center;
