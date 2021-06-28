@@ -24,7 +24,6 @@ button:hover {
 /* Nav Section */
 .navbar {
     padding: 0;
-    /* background-color: rgb(163, 106, 216); */
 
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 300% 300%;
@@ -197,7 +196,8 @@ button:hover {
     .nav {        
         width: 40%;
         display: flexbox;
-        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 2%;
     }
 
     .nav-item {
