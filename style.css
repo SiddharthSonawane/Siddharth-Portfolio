@@ -10,12 +10,6 @@ body {
     /* box-sizing: unset; */
 }
 
-button {
-    border: 1px black solid;
-    border-radius: 10px;
-    font-size: 0.8rem;
-
-}
 
 button:hover {
     border: 1px #fff solid;
@@ -27,9 +21,7 @@ button:hover {
 
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 300% 300%;
-	animation: gradient 15s ease infinite;
-
-    
+	animation: gradient 15s ease infinite;    
 
     text-align: center;
     width: 100%;
@@ -47,12 +39,9 @@ button:hover {
 /* Welcome section */
 
 .welcome-section {
-    /* background-color: rgb(163, 106, 216); */
-
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-
 
     color: #fff;
     text-align: center;
@@ -72,8 +61,7 @@ button:hover {
 	}
 }
 
-.welcome-section h1 {
-    
+.welcome-section h1 {    
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
 }
@@ -82,8 +70,7 @@ button:hover {
 
 .projects-section {
     background-color: rgb(245, 228, 245);
-    padding: 5%;
-    
+    padding: 5%;    
 }
 
 #project-container {
@@ -114,8 +101,7 @@ button:hover {
     background-color: rgb(85, 96, 248);
     color: #fff;
     margin-top: 1%;
-    padding: 1% 5%;
-    
+    padding: 1% 5%;    
 }
 
 .projects-section button:hover {
@@ -126,8 +112,7 @@ button:hover {
 /* Technical SKills Section */
 
 .technical-skills {
-    padding: 10%;
-    
+    padding: 10%;    
 }
 
 .front-end {
@@ -234,6 +219,7 @@ button:hover {
     #project-container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     #project-container > div {
@@ -255,8 +241,6 @@ button:hover {
     }
 
     /* Tech skills */
-
-
 
     .technical-skills h2 {
         text-align: center;
