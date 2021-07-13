@@ -140,7 +140,7 @@ button:hover {
 /* Contact Section */
 
 .contact-section {
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(75, 73, 73);
     text-align: center;
     display: flexbox; 
     padding: 15% 10%;
@@ -162,6 +162,7 @@ button:hover {
 
 .contact-info-div {
     margin-top: 3%;
+    
 }
 
 .contact-info-div .contact-icon {
@@ -170,6 +171,8 @@ button:hover {
 
 .contact-info {
     padding: 5px;
+    font-size: 1rem;
+    color: #fff;
 }
 
 /* Media Quries */
